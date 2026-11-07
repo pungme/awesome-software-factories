@@ -121,6 +121,7 @@ Tools that watch an issue tracker or event stream and dispatch agents to open pu
 - [codex-action](https://github.com/openai/codex-action) - OpenAI's official GitHub Action for running Codex from a workflow with tight control over its privileges. `Backends: Codex`
 - [Contrabass](https://github.com/junhoyeo/contrabass) - Go reimplementation of the Symphony pattern. Pulls from Linear, GitHub Issues, or a local board into isolated worktrees.
 - [Cyrus](https://github.com/cyrusagents/cyrus) - Background agent that watches issues assigned to it in Linear, GitHub, GitLab, or Slack and works each in its own worktree.
+- [DevIntern](https://github.com/getdevintern/devintern) - Self-hosted worker that turns ready tracker tickets into pull requests with Claude Code, Codex, Cursor, or OpenCode across multiple repos from one workspace.toml, with cron automations and Sentry → bugfix PRs. `Backends: Claude Code, Codex, Cursor, OpenCode` `💰`
 - [factory-agent](https://github.com/BayramAnnakov/factory-agent) - Linear issue to Claude Managed Agents to GitHub PR. About one dollar and three minutes per feature. `Backends: Claude Managed Agents`
 - [GitHub Agentic Workflows (gh-aw)](https://github.com/github/gh-aw) - GitHub's own tool. Markdown plus YAML agentic workflows compile to locked-down GitHub Actions with sandboxed agents and validated "safe outputs."
 - [groundcrew](https://github.com/ClipboardHealth/groundcrew) - Dispatches a task backlog to local agents, one sandboxed worktree per task.
